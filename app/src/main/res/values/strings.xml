@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ManchAssignment</string>
+    <string name="create_btn_txt">Create</string>
+    <string name="create_post_title">Post Data</string>
+    <string name="edit_post_title">Create Post</string>
+    <string name="view_post_title">View Post</string>
+    <string name="enter_title">Enter Title</string>
+    <string name="select_image">Select Post Image</string>
+    <string name="enter_desc">Enter Description</string>
+    <string name="missing_title">Please Enter Title</string>
+    <string name="missing_desc">Please Enter Description</string>
+    <string name="missing_image">Please Select Image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_option">Choose Option</string>
+
+
+</resources>

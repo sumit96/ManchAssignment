@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="practice.mvp.com.manchassignment.EditPostActivity">
+
+        <include layout="@layout/top_panel"></include>
+
+    <LinearLayout
+        android:id="@+id/edit_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10sp">
+
+    <EditText
+        android:id="@+id/edt_title"
+        style="@style/input_style"
+        android:hint="@string/enter_title"
+        android:singleLine="true"
+        android:maxLines="1"
+        />
+
+        <EditText
+            android:id="@+id/edt_desc"
+            style="@style/input_style"
+            android:inputType="textMultiLine"
+            android:lines="18"
+            android:minLines="16"
+            android:gravity="top|left"
+            android:maxLines="20"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:textSize="12dp"
+            android:hint="@string/enter_desc"
+            android:layout_margin="2dp"
+            />
+
+        <TextView
+            android:id="@+id/image_txt"
+            style="@style/input_style"
+            android:hint="@string/select_image"
+            />
+        <Button
+            android:id="@+id/btn_create"
+            style="@style/post_btn_style"
+            android:layout_marginTop="5sp"/>
+    </LinearLayout>
+</LinearLayout>
